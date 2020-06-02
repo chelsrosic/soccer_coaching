@@ -1,0 +1,406 @@
+html, body {
+  margin-left:0;
+  margin-right: 0;
+  height: 100%;
+}
+
+/* nav bar styles */ 
+h1 {
+   /*color: #E5DBCC;  */
+   color: green;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+   font-size: 240%;
+   padding-left: 16px;
+   padding-right: 16px;
+}
+
+.nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif; 
+  }
+  
+  li a {
+    display: block;
+    color:green;
+    text-align: center;
+    padding: 35px 20px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 150%;
+  }
+  
+  li a:hover {
+    color: black;
+  }
+
+.li_a_on_page {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 150%;
+    padding: 35px 20px;
+}
+
+/* footer */ 
+.footer_div {
+  height: 15%;
+  width: 100%;
+  position: absolute;
+  left:0;
+  right: 0;
+  background-color: gray;
+  color: white;
+}
+
+.footer_contact_div{
+  margin-top: 2.5%;
+  margin-left: 80%;
+
+}
+
+.footer_link {
+  float: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 5% 5%;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 150%;
+  border: 3px solid white;
+}
+
+.footer_link:hover {
+  color: black;
+  border: 3px solid black;
+}
+
+/* index.html styles */ 
+
+.main_page_large_picture {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left:0;
+    text-align: center;
+    /*background-color: white;*/
+    /*margin-top: 0.5%;*/
+    margin-bottom: 0.5%;
+    z-index: -1;
+}
+
+.over_image_small_1 {
+    position: absolute;
+    top:18%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 200%;
+    color:black;
+}
+
+.over_image_small_2 {
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -36%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 200%;
+    color:black;
+}
+
+.over_image_large {
+    position: absolute;
+    top:28%;
+    left: 50%;
+    transform: translate(-50%, -27%);
+    color: black;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 400%;
+}
+
+.main_page_image {
+    position: absolute;
+    top:0%;
+    left:0%;
+    opacity: 1;
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    object-position: 20% 57%; 
+}
+
+.about_preview {
+  margin-top: 45%;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about_preview_text {
+  float:left;
+  width: 40%;
+  font-size: 115%;
+}
+
+.about_preview_img {
+  padding-left: 20%;
+  float:left;
+  width: 40%;
+}
+
+.main_page_about_me_img {
+  margin-bottom: 2%;
+  width: 500px;
+  height: auto;
+}
+
+.subtitle_main_page_about {
+  color: green;
+  font-size: 200%;
+}
+
+.my_journey_link {
+  float: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  display: block;
+  color:white;
+  background-color: green;
+  text-align: center;
+  padding: 4% 4%;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 150%;
+  margin-left: 11%;
+}
+
+.my_journey_link:hover {
+  background-color: darkgreen;
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    padding-left: 15%;
+    padding-right: 5%;
+}
+
+.column2 {
+    float: left;
+    width: 23%;
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  padding-top: 3.5%;
+}
+
+.row {
+    margin-top: 72%;
+    background-color: #f4f4f4;
+    padding-top: 2%;
+    height: 30%;
+}
+
+/* clear float */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+.training_row_title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 225%;
+    color: green;
+}
+
+.training_row_bullet {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif; 
+  font-size: 165%;
+  margin-top: 0%;
+  color: black;
+}
+
+.index_body_link {
+  float: left;
+  display: block;
+  color:green;
+  text-align: center;
+  padding: 5% 5%;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 150%;
+  border: 3px solid green;
+}
+
+.index_body_link:hover {
+  color: black;
+  border: 3px solid black;
+
+}
+
+
+
+
+/* About me page styles */ 
+.about_text { 
+  font-size: 125%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.about_text_holder {
+  background-color: white;
+}
+
+.about_me_img {
+  padding-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.qualifications_list {
+  font-size: 115%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.about_qualifications { 
+  position: absolute;
+  top: 15%;
+  left: 53%;
+  font-size: 150%;
+  padding-right: 5%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.about_row {
+  background-color: #fafef9;
+  position: relative;
+  top: 0;
+  z-index: -1;
+}
+
+.about_session {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color:#f4f4f4; 
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 125%;
+}
+
+
+
+/* training */
+
+.pricing {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  
+  margin-top: 1%;
+  padding-bottom: 5%;
+
+/*
+  margin-left: 10%;
+   width: 80%;
+*/
+  padding-top: 2%;
+ 
+  text-align: center;
+  /*border: 1px solid black;*/
+
+  background-color: #EAEAEA;
+}
+
+.pricing_title {
+  font-size: 175%;
+  color: green;
+}
+
+.green_text {
+  color: green;
+}
+
+.pricing_detail {
+  font-size: 110%;
+}
+
+.initial_meeting {
+  float:left;
+  margin-left: 7.5%;
+  margin-top: 2%;
+  width:25%;
+  margin-right: 5%;
+  padding-top: 1%;
+  background-color: white;
+  height: 300px;
+
+}
+
+.individual {
+  float:left;
+  margin-top: 2%;
+  width:25%;
+  background-color: white;
+  padding-top: 1%;
+  height: 300px;
+}
+
+.group {
+  float:left;
+  width:25%;
+  margin-right: 7.5%;
+  margin-left:5%;
+  margin-top: 2%;
+  background-color: white;
+  padding-top: 1%;
+  height: 300px;
+}
+
+.fine_print {
+  margin-top:20%;
+  float:center;
+  font-size: 100%;
+}
+
+.pricing_row {
+  font-size: 125%;
+}
+
+.book_now_link {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  display: block;
+  color:white;
+  background-color: green;
+  text-align: center;
+  padding: 1% 1%;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 150%;
+  width: 15%;
+  float:center;
+  margin-left: 42.5%;
+  margin-top:2%;
+}
+
+.book_now_link:hover {
+  background-color: darkgreen;
+}
