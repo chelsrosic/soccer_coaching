@@ -8,7 +8,7 @@ html, body {
 h1 {
    /*color: #E5DBCC;  */
    color: green;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+   font-family: Impact, Haettenschweiler, sans-serif; 
    font-size: 240%;
    padding-left: 16px;
    padding-right: 16px;
@@ -23,7 +23,7 @@ h1 {
 
   li {
     float: left;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   }
   
   li a {
@@ -32,7 +32,7 @@ h1 {
     text-align: center;
     padding: 35px 20px;
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
     font-size: 150%;
   }
   
@@ -45,7 +45,7 @@ h1 {
     color: black;
     text-align: center;
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
     font-size: 150%;
     padding: 35px 20px;
 }
@@ -69,13 +69,13 @@ h1 {
 
 .footer_link {
   float: left;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   display: block;
   color:white;
   text-align: center;
   padding: 5% 5%;
   text-decoration: none;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   font-size: 150%;
   border: 3px solid white;
 }
@@ -105,7 +105,7 @@ h1 {
     top:18%;
     left: 50%;
     transform: translate(-50%, -20%);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
     font-size: 200%;
     color:black;
 }
@@ -115,7 +115,7 @@ h1 {
     top:40%;
     left: 50%;
     transform: translate(-50%, -36%);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
     font-size: 200%;
     color:black;
 }
@@ -126,7 +126,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -27%);
     color: black;  
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
     font-size: 400%;
 }
 
@@ -145,7 +145,7 @@ h1 {
   margin-top: 45%;
   margin-right: 15%;
   margin-left: 15%;
-  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:  Impact, Haettenschweiler, 'Arial', sans-serif;
 }
 
 .about_preview_text {
@@ -173,14 +173,14 @@ h1 {
 
 .my_journey_link {
   float: left;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   display: block;
   color:white;
   background-color: green;
   text-align: center;
   padding: 4% 4%;
   text-decoration: none;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   font-size: 150%;
   margin-left: 11%;
 }
@@ -223,13 +223,13 @@ h1 {
   
 
 .training_row_title {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
     font-size: 225%;
     color: green;
 }
 
 .training_row_bullet {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   font-size: 165%;
   margin-top: 0%;
   color: black;
@@ -242,7 +242,7 @@ h1 {
   text-align: center;
   padding: 5% 5%;
   text-decoration: none;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   font-size: 150%;
   border: 3px solid green;
 }
@@ -263,7 +263,7 @@ h1 {
   padding-right: 5%;
   padding-top: 2%;
   padding-bottom: 2%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
 }
 
 .about_text_holder {
@@ -278,7 +278,7 @@ h1 {
 
 .qualifications_list {
   font-size: 115%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
 }
 
 .about_qualifications { 
@@ -287,7 +287,7 @@ h1 {
   left: 53%;
   font-size: 150%;
   padding-right: 5%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
 }
 
 .about_row {
@@ -304,7 +304,7 @@ h1 {
   padding-bottom: 4%;
   background-color:#f4f4f4; 
   color: black;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   font-size: 125%;
 }
 
@@ -313,7 +313,7 @@ h1 {
 /* training */
 
 .pricing {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   
   margin-top: 1%;
   padding-bottom: 5%;
@@ -386,14 +386,14 @@ h1 {
 }
 
 .book_now_link {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   display: block;
   color:white;
   background-color: green;
   text-align: center;
   padding: 1% 1%;
   text-decoration: none;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif; 
   font-size: 150%;
   width: 15%;
   float:center;
