@@ -61,7 +61,6 @@ html, body {
   display: block;
   color:black;
   text-decoration: none;
-  display: block;
 }
 
 
@@ -148,7 +147,6 @@ html, body {
   text-align: center;
   padding: 5% 5%;
   text-decoration: none;
-  font-family:  Helvetica, Arial, sans-serif; 
   font-size: 150%;
   border: 3px solid white;
 }
@@ -358,44 +356,32 @@ html, body {
 }
 
 /* About me page styles */ 
-.about_text { 
-  font-size: 125%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+.about_intro_grid {
+  display: grid;
+  background-color: #f4f4f4;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "column1 column2";
+  justify-items: center;
+  align-items: center;
+}
+
+.about_qualifications {
+  grid-area: column2;
+  text-align: left;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 120%;
   font-family:  Helvetica, Arial, sans-serif; 
 }
 
-.about_text_holder {
-  background-color: white;
+.about_me_img_cell {
+  grid-area: column1;
+  align-items: center;
 }
 
 .about_me_img {
-  padding-left: 5%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-.qualifications_list {
-  font-size: 115%;
-  font-family:  Helvetica, Arial, sans-serif; 
-}
-
-.about_qualifications { 
-  position: absolute;
-  top: 15%;
-  left: 53%;
-  font-size: 150%;
-  padding-right: 5%;
-  font-family:  Helvetica, Arial, sans-serif; 
-}
-
-.about_row {
-  background-color: #fafef9;
-  position: relative;
-  top: 0;
-  z-index: -1;
+  width: 150%;
+  height:auto;
 }
 
 .about_session {
@@ -409,9 +395,53 @@ html, body {
   font-size: 125%;
 }
 
+.about_text { 
+  background-color: white;
+  font-size: 125%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family:  Helvetica, Arial, sans-serif; 
+}
+
+@media (max-width: 1350px) {
+  .about_intro_grid {
+    background-color: #f4f4f4;
+    grid-template-columns: 1fr;
+    grid-template-areas: "column1" "column2";
+    justify-items: center;
+    align-items: center;
+  }
+
+  .about_me_img_cell {
+    padding-top: 3%;
+    width:100%;
+    grid-area: column1;
+    float: center;
+  }
+
+  .about_me_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+
+  .about_qualifications {
+    grid-area: column2;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 120%;
+    font-family:  Helvetica, Arial, sans-serif; 
+  }
+}
 
 
-/* training */
+
+/* pricing */
 
 .pricing {
   font-family:  Helvetica, Arial, sans-serif; 
@@ -436,62 +466,97 @@ html, body {
 }
 
 .initial_meeting {
-  float:left;
-  margin-left: 7.5%;
-  margin-top: 2%;
-  width:25%;
-  margin-right: 5%;
-  padding-top: 1%;
+  padding: 2%;
   background-color: white;
-  height: 300px;
-
+  grid-area: column1;
+  justify-self: right;
 }
 
 .individual {
-  float:left;
-  margin-top: 2%;
-  width:25%;
+  padding: 2%;
   background-color: white;
-  padding-top: 1%;
-  height: 300px;
+  grid-area: column2;
 }
 
 .group {
-  float:left;
-  width:25%;
-  margin-right: 7.5%;
-  margin-left:5%;
-  margin-top: 2%;
+  padding: 2%;
   background-color: white;
-  padding-top: 1%;
-  height: 300px;
+  grid-area: column3;
+  justify-self: left;
 }
 
 .fine_print {
-  margin-top:20%;
   float:center;
   font-size: 100%;
 }
 
 .pricing_row {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
   font-size: 125%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "column1 column2 column3";
+  justify-items: center;
+  font-family:  Helvetica, Arial, sans-serif; 
+  align-items: stretch;
+} 
+
+.book_now_div {
+  margin-top: 3%;
 }
 
 .book_now_link {
-  display: block;
   color:white;
   background-color: green;
   text-align: center;
   padding: 1% 1%;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif; 
-  font-size: 150%;
-  width: 15%;
-  float:center;
-  margin-left: 42.5%;
-  margin-top:2%;
+  font-size: 200%;
+  width: 20%;
 }
 
 .book_now_link:hover {
   background-color: darkgreen;
+}
+
+@media (max-width: 1350px) {
+
+  .pricing_row {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 125%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "column1" "column2" "column3";
+    justify-content: center;
+    font-family:  Helvetica, Arial, sans-serif; 
+  } 
+
+  .initial_meeting {
+    padding: 2%;
+    background-color: white;
+    grid-area: column1;
+    justify-self: center;
+    margin-top: 2%;
+  }
+  
+  .individual {
+    padding: 2%;
+    margin-top: 3%;
+    background-color: white;
+    grid-area: column2;
+  }
+  
+  .group {
+    padding: 2%;
+    margin-top: 3%;
+    background-color: white;
+    grid-area: column3;
+    justify-self: center;
+  }
+  
+
 }
