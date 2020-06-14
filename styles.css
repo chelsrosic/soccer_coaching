@@ -159,7 +159,7 @@ html, body {
 /* index.html styles */ 
 
 .main_page_large_picture_grid {
-  background-image: url(../img/woman_soccer_field.jpg);
+  background-image: url(img/woman_soccer_field.jpg);
   background-position: 25% 61%; 
   background-repeat: no-repeat;
   background-size: cover;
